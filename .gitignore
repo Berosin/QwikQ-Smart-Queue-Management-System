@@ -1,0 +1,81 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --- SECURITY SENSITIVE FILES ---
+# Credential files
+*.env
+*.env.*
+key.properties
+local.properties
+
+# Supabase Keys (Hiding the constants file itself)
+lib/core/constants/app_constants.dart
+
+# Android signing keys
+*.jks
+*.keystore
+/android/app/*.jks
+/android/app/*.keystore
+
+# iOS sensitive build settings
+ios/Flutter/Release.xcconfig
+ios/Flutter/Debug.xcconfig
+
+# Firebase/Google configuration (even if not used, good to prevent accidental upload)
+google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Mac temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+**/Icon\r
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent

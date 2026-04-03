@@ -1,0 +1,96 @@
+name: qwikq_app
+description: Smart Queue Management System - Skip the line, save your time.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase
+  supabase_flutter: ^2.3.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  glassmorphism: ^3.0.0
+  fl_chart: ^0.66.2
+  percent_indicator: ^4.2.3
+  animated_text_kit: ^4.2.2
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.6
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+
+  # Location & Maps
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.5.3
+  geocoding: ^3.0.0
+
+  # Storage & Connectivity
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # Media
+  cached_network_image: ^3.3.1
+  image_picker: ^1.0.7
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  url_launcher: ^6.2.5
+  permission_handler: ^11.3.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0
+
+  # Audio (for voice announcements)
+  flutter_tts: ^3.8.5
+
+  # Gamification
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+  hive_generator: ^2.0.1
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Rajdhani
+      fonts:
+        - asset: assets/fonts/Rajdhani-Regular.ttf
+        - asset: assets/fonts/Rajdhani-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rajdhani-SemiBold.ttf
+          weight: 600
