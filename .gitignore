@@ -49,8 +49,6 @@ app.*.map.json
 key.properties
 local.properties
 
-# Supabase Keys (Hiding the constants file itself)
-lib/core/constants/app_constants.dart
 
 # Android signing keys
 *.jks
